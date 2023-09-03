@@ -13,11 +13,11 @@ To get started with this application, follow these steps:
 
    
    git clone https://github.com/MeshackPatrick/code3
-1. Install the required dependencies using pip:
-   pip install -r requirements.txt
-2. Run the database migrations to set up the database schema:
+## Install the required dependencies using pip:
+    pip install -r requirements.txt
+## Run the database migrations to set up the database schema:
     alembic upgrade head
-3. Seed the database with sample data using the provided seeds.py script:
+## Seed the database with sample data using the provided seeds.py script:
     python seeds.py
 ## Migrations
 
@@ -80,7 +80,8 @@ To use the application, you can refer to the provided example usage in the main.
         print(f"{customer.first_name} has not reviewed any restaurants yet.")
 
 ## License
+This project is licensed under the [weshinc] - see the LICENSE file for details.
 
-This project is licensed under the MIT License zdc.
+[weshinc] License
 
 
