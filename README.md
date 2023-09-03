@@ -60,26 +60,26 @@ Restaurant.all_reviews(): Returns a list of strings with all the reviews for thi
 
 To use the application, you can refer to the provided example usage in the main.py file. Here are some examples of how to interact with the application:
 
-1.Get the fanciest restaurant:
+## Get the fanciest restaurant:
     fanciest_restaurant = Restaurant.fanciest()
     print(f"The fanciest restaurant is {fanciest_restaurant.name} with a price rating of {fanciest_restaurant.price}")
-2.Get all reviews for a restaurant ():
+## Get all reviews for a restaurant ():
     restaurant_reviews = restaurant_instance.all_reviews()
     print("Reviews for Restaurant A:")
     for review in restaurant_reviews:
     print(review)
-3.Get the full name of a customer:
+## Get the full name of a customer:
     customer = session.query(Customer).first()
     full_name = customer.full_name()
     print(f"Customer's full name: {full_name}")
-4.Get the favorite restaurant of a customer:
+## Get the favorite restaurant of a customer:
     favorite = customer.favorite_restaurant()
     if favorite:
         print(f"{customer.first_name}'s favorite restaurant is {favorite.name}")
     else:
         print(f"{customer.first_name} has not reviewed any restaurants yet.")
 
-License
+## License
 
 This project is licensed under the MIT License zdc.
 
